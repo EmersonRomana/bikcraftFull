@@ -1,16 +1,14 @@
 .introducao-bg {
   background-color: #000000;
-  color: #fff;
-  box-shadow: inset 0 -120px #fff;
+  color: var(--cor-0);
+  box-shadow: inset 0 -120px var(--cor-0);
 }
 
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  max-width: 1200px;
   padding-inline: 20px;
-  margin-inline: auto;
 }
 
 .introducao-conteudo {
@@ -20,23 +18,11 @@
 
 .introducao-conteudo h1 {
   margin-bottom: 32px;
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
-
-.introducao-conteudo h1 span {
-  color: #fb0;
 }
 
 .introducao-conteudo p {
   margin-bottom: 20px;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #aeaeae;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  color: var(--cor-4);
 }
 
 .introducao-img img {
@@ -58,9 +44,9 @@
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background-color: #111111;
+    background-color: var(--cor-11);
     padding-top: 40px;
-    box-shadow: inset 0 -60px #fff;
+    box-shadow: inset 0 0.5px var(--cor-0);
   }
   .introducao {
     grid-template-columns: 1fr;

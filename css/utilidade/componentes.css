@@ -1,8 +1,15 @@
+/* Área da página espaçamento lateral */
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+/* Área de Botão */
 .btn {
   display: inline-block;
   padding: 16px 32px;
   background: linear-gradient(#ffbf00, #f2a50c);
-  color: #331f01;
+  color: var(--cor-p5);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -12,6 +19,6 @@
   text-transform: uppercase;
 }
 
-.btn a:hover {
+.btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
