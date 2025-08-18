@@ -19,10 +19,11 @@
 .tecnologia-conteudo {
   margin-block: auto;
   padding: 30px;
-  padding-block: 110px;
+  padding-block: 160px;
 }
 
-.tecnologia-conteudo span {
+.tecnologia-conteudo > span {
+  display: block;
   margin-bottom: 16px;
 }
 
@@ -30,6 +31,64 @@
   margin-bottom: 32px;
 }
 
-.tecnologia-conteudo p {
+.tecnologia-conteudo > p {
   margin-bottom: 20px;
+}
+
+.tecnologia-conteudo > a {
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+
+.tecnologia-vantagens h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+
+.tecnologia-vantagens img {
+  width: 22px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 850px) {
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia-conteudo {
+    padding-block: 60px;
+  }
+  .tecnologia-img {
+    display: none;
+  }
+  .tecnologia-conteudo > a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnologia-vantagens {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .tecnologia-conteudo > span {
+    font-size: 1.5rem;
+  }
+  .tecnologia-conteudo h2 {
+    font-size: 2.5rem;
+  }
+  .tecnologia-conteudo > p {
+    font-size: 1.3rem;
+  }
+  .tecnologia-conteudo a {
+    font-size: 1.5rem;
+  }
 }
