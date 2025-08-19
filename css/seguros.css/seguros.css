@@ -18,4 +18,53 @@
   background: var(--cor-12);
   padding: 32px;
   padding-left: 60px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.seguro-items {
+  margin-bottom: 48px;
+}
+
+.seguro-items span {
+  grid-column: 2;
+  display: block;
+  text-align: right;
+}
+
+.seguro-items ul {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+}
+
+.seguro-items li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.seguro-items li + li {
+  margin-top: 20px;
+}
+
+.seguro-items li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url("../../img/icones/lista.svg");
+  position: absolute;
+  left: -21px;
+}
+
+.seguro-items a {
+  grid-column: 1/-1;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 800px) {
+  .seguro {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 }
