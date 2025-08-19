@@ -23,6 +23,16 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 
+.btn.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.btn.secundario:hover {
+  background-color: var(--cor-8);
+}
+
+/* Área do LINK */
 .link {
   display: inline-block;
   color: var(--cor-p1);

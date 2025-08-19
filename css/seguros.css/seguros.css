@@ -1,0 +1,21 @@
+.seguro-bg {
+  background-color: var(--cor-11);
+}
+
+.seguro {
+  padding-block: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.seguro h2 {
+  grid-column: 1/ -1;
+}
+
+.seguro-items {
+  background: var(--cor-12);
+  padding: 32px;
+  padding-left: 60px;
+}

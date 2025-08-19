@@ -70,7 +70,8 @@
 
 @media (max-width: 600px) {
   .parceiros {
-    padding-block: 30px 60px;
+    padding-block: 30px 40px;
+    padding-inline: 20px;
   }
   .parceiros h2 {
     padding-bottom: 0px;
@@ -80,6 +81,6 @@
     padding: 22px;
   }
   .parceiros img {
-    width: 80px;
+    width: 120px;
   }
 }
