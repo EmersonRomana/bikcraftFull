@@ -3,8 +3,8 @@
 }
 
 .vantagens {
-  padding-block: 120px;
-  padding-inline: 20px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .vantagens h2 {
@@ -13,10 +13,7 @@
 
 .vantagens ul {
   display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(280px, max-content)
-  ); /* Area responsiva para o grid */
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
   gap: 40px 80px;
 }
 
@@ -27,33 +24,13 @@
 
 @media (max-width: 800px) {
   .vantagens {
-    padding-block: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .vantagens h2 {
     margin-bottom: 40px;
   }
   .vantagens ul {
     gap: 20px;
-  }
-}
-
-@media (max-width: 650px) {
-  #seguros .titulo-bg h3 {
-    font-size: 2rem;
-  }
-  .vantagens h2 {
-    font-size: 2rem;
-    margin-bottom: 60px;
-  }
-  .vantagens h3 {
-    font-size: 1.2rem;
-  }
-
-  .vantagens ul {
-    gap: 40px;
-  }
-
-  .vantagens p {
-    font-size: 0.875rem;
   }
 }
