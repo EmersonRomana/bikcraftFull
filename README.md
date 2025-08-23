@@ -2,6 +2,8 @@
 
 ![Bikcraft](img/github/cover-bikecraft.png)
 
+<a href="emersonromana.github.io/bikcraftFull/" target="_blank">🌐 Visite o site do projeto</a>
+
 ## Visão Geral
 
 **Bikcraft** é um projeto de site responsivo para uma marca fictícia de **bicicletas elétricas personalizadas**, desenvolvido como prática do curso de **HTML e CSS para Iniciantes**, da Origamid. A plataforma oferece:
