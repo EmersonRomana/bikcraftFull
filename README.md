@@ -2,7 +2,7 @@
 
 ![Bikcraft](img/github/cover-bikecraft.png)
 
-<a href="emersonromana.github.io/bikcraftFull/" target="_blank">🌐 Visite o site do projeto</a>
+<a href="https://emersonromana.github.io/bikcraftFull/" target="_blank">🌐 Visite o site do projeto</a>
 
 ## Visão Geral
 
