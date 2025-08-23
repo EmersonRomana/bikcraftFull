@@ -100,20 +100,34 @@ O site foi totalmente codificado com **HTML e CSS puro**, seguindo instruções 
 
 ---
 
-### 3. `orcamento.html` (Orçamento) _(caso exista)_
-
-- (Se esta página existe, descreva aqui como organizou o layout — por exemplo, um formulário com campos dispostos em coluna ou duas colunas conforme o viewport. Se ainda não foi criada, você pode mencioná-la como futura implementação.)
-
 ### 4. `contato.html`
 
 - **Formulário de contato** centralizado dentro de um container com largura máxima.
 - **Campos empilhados**, com inputs que se expandem para preenchimento confortável.
 - Botão de envio destacado com cor de contraste e largura responsiva.
 
+##### Mobile
+
+![Bikcraft](img/github/contato-mob.png)
+
+##### Desktop
+
+![Bikcraft](img/github/image%201.png)
+
+---
+
 ### 5. `termos.html`
 
 - Layout de texto fluido (parágrafos justificados ou alinhados à esquerda).
 - Cabeçalho e rodapé consistentes com o resto do site.
+
+##### Mobile
+
+![Bikcraft](img/github/termos-mob.png)
+
+##### Desktop
+
+![Bikcraft](img/github/termos-desk.png)
 
 ---
 
