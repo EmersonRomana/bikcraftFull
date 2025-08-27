@@ -10,6 +10,9 @@
 
   <link rel="preload" href="../css/style.css" as="style">
   <link rel="stylesheet" href="../css/style.css">
+  <!-- animação de rolagem -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <script>document.documentElement.classList.add("js")</script>
 </head>
 
@@ -31,28 +34,28 @@
   </header>
 
   <main class="titulo-bg">
-    <div>
+    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
       <div class="titulo container">
         <p class="font-2-xl cor-5">R$ 2499</p>
         <h1 class="font-1-xxl cor-0">Magic Might<span class="cor-p1">.</span></h1>
       </div>
     </div>
     <div class="bicicleta container">
-      <div class="bicicleta-imagens">
+      <div class="bicicleta-imagens" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
         <img src="../img/bicicleta/nimbus2.jpg" alt="">
         <img src="../img/bicicleta/nimbus1.jpg" alt="">
         <img src="../img/bicicleta/nimbus3.jpg" alt="">
       </div>
       <div class="bicicleta-conteudo">
-        <p class="font-2-l cor-5">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
-        <div class="bicicleta-comprar">
+        <p class="font-2-l cor-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+        <div class="bicicleta-comprar" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
           <a class="botao" href="../orcamento.html?tipo=bikcraft&produto=magic">Comprar Agora</a>
           <span class="font-1-xs cor-6"><img src="../img/icones/entrega.svg" alt=""> entrega em 5 dias</span>
           <span class="font-1-xs cor-6"><img src="../img/icones/estoque.svg" alt=""> 18 em estoque</span>
         </div>
 
-        <h2 class="font-1-xs cor-0">Informações</h2>
-        <ul class="bicicleta-informacoes">
+        <h2 class="font-1-xs cor-0" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">Informações</h2>
+        <ul class="bicicleta-informacoes" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
           <li>
             <img src="../img/icones/eletrica.svg" alt="">
             <h3 class="font-1-m cor-0">Motor Elétrico</h3>
@@ -74,8 +77,8 @@
             <p class="font-2-xs cor-5">Maior proteção possível para a sua Bikcraft com fibra de carbono.</p>
           </li>
         </ul>
-        <h2 class="font-1-xs cor-0">Ficha Técnica</h2>
-        <ul class="bicicleta-ficha font-2-s cor-4">
+        <h2 class="font-1-xs cor-0" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">Ficha Técnica</h2>
+        <ul class="bicicleta-ficha font-2-s cor-4" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
           <li>Peso <span>9 kg</span></li>
           <li>Altura <span>60 cm</span></li>
           <li>Largura <span>120 cm</span></li>
@@ -88,9 +91,9 @@
   </main>
 
   <article class="bicicletas-lista container">
-    <h2 class="font-1-xxl">escolha a sua<span class="cor-p1">.</span></h2>
+    <h2 class="font-1-xxl" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">escolha a sua<span class="cor-p1">.</span></h2>
 
-    <ul>
+    <ul data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
       <li>
         <a href="./nimbus.html">
           <img src="../img/bicicletas/nimbus.jpg" alt="Bicicleta preta">
@@ -110,10 +113,10 @@
 
   <article class="seguro-bg">
     <div class="seguro container">
-      <div class="seguro-imagem">
+      <div class="seguro-imagem" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
         <img src="../img/fotos/seguros.jpg" alt="Pessoa parada em cima de uma bicicleta.">
       </div>
-      <div class="seguro-conteudo">
+      <div class="seguro-conteudo" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
         <h2 class="font-1-xxl cor-0">Pedale mais tranquilo com o nosso <span class="cor-p1">seguro.</span></h2>
         <p class="font-2-l cor-5">Inscreva-se em um dos planos do nosso seguro Bikcraft e aproveite diversos benefícios.</p>
         <a class="botao" href="../seguros.html">Conheça Mais</a>
@@ -158,6 +161,8 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
   <script src="../js/script.js"></script>
 </body>
 
