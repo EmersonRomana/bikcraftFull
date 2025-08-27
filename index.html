@@ -19,6 +19,8 @@
   <meta property="og:image" content="https://i.ibb.co/zVrzG8DM/link.png">
   <meta property="og:url" content="https://emersonromana.github.io/bikcraftFull/">
   <meta property="og:type" content="website">
+  <!-- animação de rolagem -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- Dados estruturados em JSON-LD -->
   <script type="application/ld+json">
@@ -30,6 +32,7 @@
     "url": "https://emersonromana.github.io/bikcraftFull/"
   }
   </script>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
@@ -52,11 +55,11 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+        <h1 class="font-1-xxl cor-0 vemDeCima" data-anime="300">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+        <p class="font-2-l cor-5 vemDeCima" data-anime="600">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a class="botao vemDeCima" href="./bicicletas.html" data-anime="900">Escolha a sua</a>
       </div>
-      <picture>
+      <picture data-anime="1200" class="vemDeCima">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta.">
       </picture>
@@ -64,24 +67,24 @@
   </main>
 
   <article class="bicicletas-lista">
-    <h2 class="container font-1-xxl">escolha a sua<span class="cor-p1">.</span></h2>
+    <h2 class="container font-1-xxl" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">escolha a sua<span class="cor-p1">.</span></h2>
 
     <ul>
-      <li>
+      <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200">
         <a href="./bicicletas/magic.html">
           <img src="./img/bicicletas/magic-home.jpg" alt="Bicicleta preta" width="920" height="1040">
           <h3 class="font-1-xl">Magic Might</h3>
           <span class="font-2-m cor-8">R$ 2499</span>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200">
         <a href="./bicicletas/nimbus.html">
           <img src="./img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta" width="920" height="1040">
           <h3 class="font-1-xl">Nimbus Stark</h3>
           <span class="font-2-m cor-8">R$ 4999</span>
         </a>
       </li>
-      <li>
+      <li data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200">
         <a href="./bicicletas/nebula.html">
           <img src="./img/bicicletas/nebula-home.jpg" alt="Bicicleta preta" width="920" height="1040">
           <h3 class="font-1-xl">Nebula Cosmic</h3>
@@ -212,8 +215,10 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="./plugin/simple-anime.js"></script>
   <script src="./js/script.js"></script>
-
 </body>
 
 </html>
